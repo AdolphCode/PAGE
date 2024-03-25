@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+ .box-outer {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 5px solid #280677;
+        border-radius: 5px;
+    }
+  
+.label-back {
+color: #04682ae0; 
+font-weight: bold;
+display: block; 
+}
+
+    .heading {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .input-control {
+        width: 100%;
+        padding: 6px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+
+    .button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+    }
+     .google-sign-in-button {
+background-color: #f4f6f8; 
+color: #140c0c;
+border: 1px solid #ccc;
+padding: 6px 6px;
+border-radius: 5px;
+cursor: pointer;
+font-size: 14px;
+font-weight: bold;
+text-align: center;
+display: flex;
+align-items: center; 
+}
+</style>
+    
+</head>
+<body>
+    <div class="box-outer">
+        <form name="signup_form" method="post" action="" autocomplete="off">
+            <label class="label-back">Back</label>
+            <h2 class="heading">Tell me a little bit about you?</h2>
+            <label>First Name</label>
+            <input type="text" name="first_name" class="input-control" placeholder="Your first name">
+            <label>Last Name</label>
+            <input type="text" name="last_name" class="input-control" placeholder="Your last name">
+            <label>Email</label>
+            <input type="text" name="email" class="input-control" placeholder="Your email address">
+            <label>New Password</label>
+            <input type="password" name="password" class="input-control" placeholder="Enter your preferred password here">
+            <label>Confirm Password</label>
+            <input type="password" name="password" class="input-control" placeholder="Enter your confirmed password here">
+            <input type="submit" name="submit" class="button" value="Sign Up">
+        </form>
+      <hr>
+       <center>Already have an account. <a href="nicosoft123.blogspot.com">Login here</a></center> 
+       
+       <center> <button type="button" class="google-sign-in-button">
+            <img src="download (1).jpg" alt="Google Logo" width="10" height="10" class="google-logo">
+            Sign in with Google
+       </center>
+    </div>
+</body>
+</html>
